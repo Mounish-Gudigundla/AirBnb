@@ -1,0 +1,26 @@
+.container-fluid {
+	margin-top: 5%;
+	background-image: linear-gradient(#eef3f4, #E53935);
+	background-repeat: no-repeat;
+	color: #000;
+	overflow-x: hidden
+}
+
+.inner {
+	overflow: hidden;
+}
+
+.inner img {
+	transition: all 1.0s ease;
+}
+
+.inner:hover img {
+	transform: scale(1.5);
+}
+
+body {
+	background-image: linear-gradient(#eef3f4, rgb(237, 117, 114));
+	background-repeat: no-repeat;
+	color: #000;
+	overflow-x: hidden
+}
